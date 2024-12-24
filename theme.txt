@@ -1,20 +1,12 @@
 # Global
 title-text: ""
-desktop-image: "grub.png"
+desktop-image: "grub-w-text.png"
 desktop-color: "#9235ff"
 terminal-left: "0"
 terminal-top: "0"
 terminal-width: "100%"
 terminal-height: "100%"
 terminal-border: "0"
-
-+ image {
-  source = "rhino-text.png";
-  left = 95%;
-  top = 5%;
-  width = auto;
-  height = auto;
-}
 
 + boot_menu {
   left = 25%
