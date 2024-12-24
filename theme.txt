@@ -1,0 +1,43 @@
+# Global
+title-text: ""
+desktop-image: "grub.png"
+desktop-color: "#9235ff"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
++ image {
+  source = "rhino-text.png";
+  left = 95%;
+  top = 5%;
+  width = auto;
+  height = auto;
+}
+
++ boot_menu {
+  left = 25%
+  top = 25%
+  width = 50%
+  height = 60%
+  item_color = "#ffffff"
+  selected_item_color = "#13093c"
+  icon_width = 0
+  icon_height = 0
+  item_icon_space = 10
+  item_height = 36
+  item_padding = 0
+  item_spacing = 5
+  selected_item_pixmap_style = "select_*.png"
+}
+
++ label {
+  top = 95%
+  left = 35%
+  width = 30%
+  align = "center"
+  id = "__timeout__"
+  text = "Booting in %d seconds"
+  color = "#c10080"
+}
